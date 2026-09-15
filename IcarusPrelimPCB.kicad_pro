@@ -649,7 +649,7 @@
         "uuid": "3797dd89-e6ec-4a7e-a285-0faaea37062a"
       }
     ],
-    "used_designators": "GY\\-1,U1-9,TPU1,IMU1,GNSS1,#PWR1-5,BT1,R1-2,C1-2,L1-2",
+    "used_designators": "GY\\-1,U1-9,TPU1,IMU1,GNSS1,#PWR1-6,BT1,R1-2,C1-2,L1-2",
     "variants": []
   },
   "sheets": [
