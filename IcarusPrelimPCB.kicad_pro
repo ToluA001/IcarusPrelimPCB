@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -204,7 +210,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -231,7 +239,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -505,7 +518,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -517,14 +530,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "highpower",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3048,
         "tuning_profile": "",
@@ -536,14 +548,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "lowpower",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -560,7 +571,31 @@
     "netclass_patterns": [
       {
         "netclass": "highpower",
-        "pattern": "VCC"
+        "pattern": "Net-(GNSS1-VCC)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(GNSS1-SCL-RX)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(GNSS1-SDA-TX)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(RDF1-Rx)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(RDF1-Tx)"
+      },
+      {
+        "netclass": "highpower",
+        "pattern": "Net-(BT2-+)"
       }
     ]
   },
@@ -693,7 +728,7 @@
         "uuid": "3797dd89-e6ec-4a7e-a285-0faaea37062a"
       }
     ],
-    "used_designators": "GY\\-1,U1-9,TPU1,IMU1,GNSS1,#PWR1-12,BT1-2,R1-2,C1-2,L1-2,CIn1,TPS1,J1",
+    "used_designators": "GY\\-1,U1-9,TPU1,IMU1-2,GNSS1,#PWR1-12,BT1-2,R1-2,C1-2,L1-2,CIn1,TPS1,J1,RDF1",
     "variants": []
   },
   "sheets": [

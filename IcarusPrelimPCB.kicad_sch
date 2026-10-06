@@ -275,6 +275,298 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "IMU6050_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IMU6050"
+				(at 1.016 7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IMU6050_1_0_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 5.08 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IMU6050_1_1_1"
+				(pin power_in line
+					(at -6.35 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "3Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "ADO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "FSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "ES_CL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "ES_DA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Icarus:GNSS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -615,190 +907,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Icarus:IMU6050"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IMU6050"
-				(at 0.762 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IMU6050_0_1"
-				(rectangle
-					(start -3.81 6.35)
-					(end 5.08 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IMU6050_1_1"
-				(pin power_in line
-					(at -6.35 5.08 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "3Vo"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -6.35 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -5.08 0)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2810,7 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 33.02) (xy 260.35 33.02)
+			(xy 240.03 33.02) (xy 247.65 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2884,6 +2992,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 48.26) (xy 247.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fb588b-97f6-4f66-a0e1-b7164b438758")
+	)
+	(wire
+		(pts
 			(xy 254 120.65) (xy 259.08 120.65)
 		)
 		(stroke
@@ -2939,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 260.35 30.48)
+			(xy 238.76 30.48) (xy 251.46 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2947,6 +3065,16 @@
 			(color 0 6 253 1)
 		)
 		(uuid "3624ad6f-ae93-4343-8eea-778c9d7e5b59")
+	)
+	(wire
+		(pts
+			(xy 262.89 53.34) (xy 262.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43376d13-1852-4765-8e8f-3420fcfab6fb")
 	)
 	(wire
 		(pts
@@ -2990,6 +3118,16 @@
 			(type default)
 		)
 		(uuid "5a99bdb5-9301-40dc-ae34-a57c634a3f5d")
+	)
+	(wire
+		(pts
+			(xy 265.43 48.26) (xy 247.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d729edb-91e8-4afc-a3ba-4322fe0acf71")
 	)
 	(wire
 		(pts
@@ -3058,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 53.34) (xy 280.67 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d26c59-1eb2-4139-acb6-12df7ad331df")
+	)
+	(wire
+		(pts
 			(xy 227.33 123.19) (xy 262.89 123.19)
 		)
 		(stroke
@@ -3080,17 +3228,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 38.1) (xy 257.81 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "7f2dc923-b8cc-4d6c-ba9a-f2d22cc0f18b")
-	)
-	(wire
-		(pts
 			(xy 215.9 81.28) (xy 215.9 39.37)
 		)
 		(stroke
@@ -3109,6 +3246,16 @@
 			(type default)
 		)
 		(uuid "8041eb24-b4b7-4b4c-a715-40cbabce4c04")
+	)
+	(wire
+		(pts
+			(xy 279.4 53.34) (xy 280.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c3b98e-0875-475f-b445-6a23a269a9ed")
 	)
 	(wire
 		(pts
@@ -3178,14 +3325,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 38.1) (xy 257.81 38.1)
+			(xy 265.43 45.72) (xy 251.46 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 0 1)
 		)
-		(uuid "a6d27f04-1c12-484f-9bfb-e9b7117b5472")
+		(uuid "a3cb47fa-4018-40f7-a7a2-77167f6e9142")
 	)
 	(wire
 		(pts
@@ -3211,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 25.4) (xy 260.35 25.4)
+			(xy 232.41 25.4) (xy 255.27 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3297,6 +3443,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 40.64) (xy 255.27 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e4314c-5fc6-4d94-b91c-3bd7196ecfc8")
+	)
+	(wire
+		(pts
 			(xy 111.76 24.13) (xy 200.66 24.13)
 		)
 		(stroke
@@ -3319,6 +3475,26 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 53.34) (xy 262.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d800f838-2c4a-4842-b5a1-4ceb8c058cd6")
+	)
+	(wire
+		(pts
+			(xy 255.27 40.64) (xy 265.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90e412f-bae4-4fa3-b91a-31667477fc28")
+	)
+	(wire
+		(pts
 			(xy 226.06 39.37) (xy 238.76 39.37)
 		)
 		(stroke
@@ -3327,6 +3503,16 @@
 			(color 0 6 253 1)
 		)
 		(uuid "dc419bf3-b863-45f2-92b3-a29bd5726146")
+	)
+	(wire
+		(pts
+			(xy 251.46 45.72) (xy 251.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de07ddf4-4985-4c55-a357-90f559e0eeb4")
 	)
 	(wire
 		(pts
@@ -3438,7 +3624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 134.62 144.526 90)
 			(hide yes)
 			(show_name no)
@@ -3514,84 +3700,6 @@
 			(project "IcarusPrelimPCB"
 				(path "/3797dd89-e6ec-4a7e-a285-0faaea37062a"
 					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0656b0e6-0365-47a5-b1a6-e0c61a635bb4")
-		(property "Reference" "#PWR09"
-			(at 257.81 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3763282-94a5-49d8-9567-2e7cb40b89ca")
-		)
-		(instances
-			(project "IcarusPrelimPCB"
-				(path "/3797dd89-e6ec-4a7e-a285-0faaea37062a"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4028,6 +4136,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 262.89 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d2c6016-6459-4f44-b206-56a8f4aaa135")
+		(property "Reference" "#PWR02"
+			(at 262.89 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a318bcd9-7acb-4181-b824-f8a4bc8994eb")
+		)
+		(instances
+			(project "IcarusPrelimPCB"
+				(path "/3797dd89-e6ec-4a7e-a285-0faaea37062a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Icarus:RFD900x")
 		(at 246.38 107.95 0)
 		(unit 1)
@@ -4039,7 +4225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61e5a0e6-747a-45a6-a640-d82c0391e355")
-		(property "Reference" "U2"
+		(property "Reference" "RDF1"
 			(at 246.38 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,7 +4245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x08_P1.27mm_Horizontal"
 			(at 246.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4143,7 +4329,7 @@
 		(instances
 			(project "IcarusPrelimPCB"
 				(path "/3797dd89-e6ec-4a7e-a285-0faaea37062a"
-					(reference "U2")
+					(reference "RDF1")
 					(unit 1)
 				)
 			)
@@ -4306,8 +4492,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Icarus:IMU6050")
-		(at 266.7 30.48 0)
+		(lib_id "power:GND")
+		(at 280.67 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4316,20 +4502,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2cb121d-090f-4f72-92ed-40245d8a338c")
-		(property "Reference" "IMU1"
-			(at 273.05 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 266.7 30.48 0)
+		(uuid "a824c3e4-af05-4cf1-8ba1-328f6e531867")
+		(property "Reference" "#PWR03"
+			(at 280.67 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4338,8 +4514,18 @@
 				)
 			)
 		)
-		(property "Footprint" "Icarus Footprints:Adafruit_MPU6050_Breakout_3886"
-			(at 266.7 30.48 0)
+		(property "Value" "GND"
+			(at 280.67 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 30.48 0)
+			(at 280.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,8 +4546,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 266.7 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4370,29 +4556,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "c67a62c5-515d-4f57-8aaa-a5da10d39c06")
-		)
-		(pin "4"
-			(uuid "94146a78-6623-43f7-8794-c3b7997f1080")
 		)
 		(pin "1"
-			(uuid "14e3013e-620a-43bd-b879-f3e80be516e1")
-		)
-		(pin "2"
-			(uuid "fa8f4049-e0cf-42d4-8a69-232b7ba262eb")
-		)
-		(pin "6"
-			(uuid "714958a9-2d64-412f-9db7-062a45c77940")
-		)
-		(pin "5"
-			(uuid "fb0a2f9b-71ae-4818-8560-4a10fc811b4d")
+			(uuid "b7fd8e0b-6082-436d-835b-381fbe229f53")
 		)
 		(instances
 			(project "IcarusPrelimPCB"
 				(path "/3797dd89-e6ec-4a7e-a285-0faaea37062a"
-					(reference "IMU1")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4527,7 +4698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 246.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4576,6 +4747,117 @@
 			(project "IcarusPrelimPCB"
 				(path "/3797dd89-e6ec-4a7e-a285-0faaea37062a"
 					(reference "GNSS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "IMU6050_1")
+		(lib_id "Icarus:IMU6050")
+		(at 271.78 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1ca6e2d-d42b-410e-aa92-18652ec9f1cb")
+		(property "Reference" "IMU2"
+			(at 272.415 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 271.78 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "e7c7003f-8488-48fd-9edb-7f2cbffb46e7")
+		)
+		(pin "8"
+			(uuid "371a78e8-74bf-4481-83f3-505fcd99f4ff")
+		)
+		(pin "2"
+			(uuid "9384e7a6-8433-4e2c-9021-d7ddff137658")
+		)
+		(pin "4"
+			(uuid "a2524743-45a8-44d2-8c49-ae925c7785fc")
+		)
+		(pin "5"
+			(uuid "d4f38e94-c011-4726-993b-5ba7cca156f1")
+		)
+		(pin "1"
+			(uuid "b34bc510-29d5-4b0c-b8c8-a743d1302dbf")
+		)
+		(pin "6"
+			(uuid "4bc78900-50f3-41d2-999d-5c53e18ee6ce")
+		)
+		(pin "3"
+			(uuid "b574ac89-34dd-4cfc-9ec8-688e345a4eaa")
+		)
+		(pin "10"
+			(uuid "9e23fdde-121c-48a5-9f32-2417fa102931")
+		)
+		(pin "11"
+			(uuid "e053eda5-cef0-440e-bac9-cee160f9ce10")
+		)
+		(pin "9"
+			(uuid "00e3c94e-d5b5-4dd3-89df-3da9a1fb791f")
+		)
+		(pin "12"
+			(uuid "8c1e8a97-3748-4762-9942-ed8b1154766f")
+		)
+		(instances
+			(project "IcarusPrelimPCB"
+				(path "/3797dd89-e6ec-4a7e-a285-0faaea37062a"
+					(reference "IMU2")
 					(unit 1)
 				)
 			)
